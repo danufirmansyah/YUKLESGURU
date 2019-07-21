@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="70dp"
+        android:padding="20dp"
+        android:background="@drawable/box_abu"
+        android:elevation="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcome,"
+                />
+
+            <TextView
+                android:id="@+id/tv_user1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sabri Alim"
+                android:textStyle="bold"
+                android:textColor="@color/hitam"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Balance"
+                />
+
+            <TextView
+                android:id="@+id/balance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rp.150.000"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                />
+
+
+            <Button
+                android:id="@+id/withdraw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:paddingTop="5dp"
+                android:text="WITHDRAWAL"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:textColor="#ffffff"
+                android:backgroundTint="#FFDE59"
+                android:background="@drawable/btn_bckg"
+                android:onClick="Pindah9"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="300dp"
+        android:padding="20dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TODAY'S SCHEDULE"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:paddingTop="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10:00 PM - 12:00 PM"
+                    android:textSize="20dp"
+                    android:textColor="@color/hitam"
+                    />
+                <View
+                    android:background="@color/hitam"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="2dp"
+                    android:layout_height="24dp"/>
+
+                <TextView
+                    android:layout_marginStart="5dp"
+                    android:paddingTop="0dp"
+                    android:id="@+id/jam1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MATEMATIKA"
+                    android:textSize="20dp"
+                    android:textColor="@color/hitam"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:paddingTop="0dp"
+                android:drawableLeft="@drawable/ic_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Starbucks Coffee, Jakarta"
+                android:textColor="@color/hitam"
+                android:textSize="20dp"
+                />
+
+            <Button
+                android:id="@+id/btn_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:text="See full schedule"
+                android:textStyle="bold"
+                android:textColor="@color/putih"
+                android:textAlignment="textStart"
+                android:background="@drawable/btn_bckg"
+                android:backgroundTint="#5AC8FA"
+                android:paddingStart="95dp"
+                android:onClick="Pindah8"
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

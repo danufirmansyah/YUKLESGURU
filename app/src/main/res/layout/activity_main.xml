@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:src="@drawable/logo_lecturer_trans"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="230dp"
+        android:padding="20dp"
+        android:id="@+id/relativelayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/edt_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/email_white1"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:drawableLeft="@drawable/email_white1" />
+
+
+
+                <EditText
+                    android:id="@+id/edt_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/password_white1"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:drawableLeft="@drawable/password_white1" />
+
+
+
+            <TextView
+                android:id="@+id/f_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:paddingTop="5dp"
+                android:text="@string/f_pw"
+                android:textColor="#000000"
+                />
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="@string/lgn_btn"
+                android:background="@drawable/btn_bckg"
+                />
+
+            <!--<Button
+                android:id="@+id/btn_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/ggl"
+                android:textAlignment="textStart"
+                android:textColor="#5AC8FA"
+                android:drawableStart="@drawable/ggl1"
+                android:background="@drawable/btn_bckg"
+                android:backgroundTint="#FFFFFF"
+                android:layout_gravity="start"
+                android:drawableLeft="@drawable/ggl1"
+                android:onClick="Pindah8"/>-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="25dp"
+                android:text="@string/rgst"
+                android:textColor="#000000"/>
+
+            <Button
+                android:layout_marginTop="5dp"
+                android:id="@+id/btn_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="0dp"
+                android:text="@string/rgst_btn"
+                android:background="@drawable/btn_bckg"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

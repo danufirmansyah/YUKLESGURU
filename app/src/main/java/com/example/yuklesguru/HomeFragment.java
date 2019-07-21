@@ -1,0 +1,43 @@
+package com.example.yuklesguru;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+
+public class HomeFragment extends Fragment {
+
+    private Button Pindah8;
+    private Button Pindah9;
+    @Nullable
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_home, container, false);
+
+        Pindah8 = view.findViewById(R.id.btn_id);
+        Pindah8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), Maintenance.class);
+                startActivity(intent);
+            }
+        });
+
+        Pindah9 = view.findViewById(R.id.withdraw);
+        Pindah9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), Maintenance.class);
+                startActivity(intent);
+            }
+        });
+        return view;
+    }
+
+}

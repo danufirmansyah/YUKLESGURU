@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/intersection"
+    android:layout_height="match_parent"
+    tools:context=".location">
+
+    <include layout="@layout/toolbar1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_above="@id/bawah"
+        android:background="@color/putih"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_location_red"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DANU FIRMANSYAH"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/hitam"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_call"
+            android:layout_marginStart="70dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_textsms"
+            android:layout_marginStart="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bawah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/putih"
+        android:layout_above="@id/bawah1">
+
+        <TextView
+            android:paddingLeft="35dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mc Donald, Jakarta"/>
+
+        <View
+            android:layout_marginTop="20dp"
+            android:background="@color/hitam"
+            android:elevation="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bawah1"
+        android:orientation="horizontal"
+        android:layout_above="@id/bawah2"
+        android:paddingTop="10dp"
+        android:paddingRight="5dp"
+        android:background="@color/putih"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blueatas"
+            android:text="Income"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="60dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blueatas"
+            android:text="Duration"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="143dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bawah2"
+        android:layout_above="@id/bawah3"
+        android:background="@color/putih"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="@color/blueatas"
+            android:text="Rp. 100.000"
+            android:layout_marginLeft="60dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="@color/blueatas"
+            android:text="2 hours"
+            android:layout_marginLeft="60dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bawah3"
+        android:background="@color/bluebawah"
+        android:text="Start Job"
+        android:textColor="@color/putih"
+        android:textStyle="bold"
+        android:elevation="4dp"
+        android:onClick="Pindah4"/>
+
+</RelativeLayout>

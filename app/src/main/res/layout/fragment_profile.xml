@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar2"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp">
+
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sabri1"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="SABRI ALIM"
+            android:textColor="@color/hitam"
+            android:textStyle="bold"
+            android:textSize="25dp"/>
+        <View
+            android:layout_marginTop="20dp"
+            android:background="@color/hitam"
+            android:elevation="5dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"/>
+        <TableLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow android:gravity="center">
+                <TextView
+                    android:gravity="left"
+                    android:text="Gender"
+                    android:padding="5dp"
+                    android:layout_marginRight="30dp"/>
+                <TextView
+                    android:text=":"
+                    android:gravity="center"
+                    android:padding="5dp" />
+                <TextView
+                    android:text="Male"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="left"
+                    android:padding="5dp" />
+            </TableRow>
+
+            <TableRow android:gravity="center">
+                <TextView
+                    android:text="Age"
+                    android:padding="5dp"
+                    android:gravity="left"
+                    android:layout_marginRight="30dp"
+                    />
+                <TextView
+                    android:text=":"
+                    android:gravity="center"
+                    android:padding="5dp" />
+                <TextView
+                    android:text="27"
+                    android:gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:padding="5dp" />
+            </TableRow>
+
+            <TableRow android:gravity="center">
+                <TextView
+                    android:gravity="left"
+                    android:text="Address"
+                    android:padding="5dp"
+                    android:layout_marginRight="30dp"/>
+                <TextView
+                    android:text=":"
+                    android:gravity="center"
+                    android:padding="5dp" />
+                <TextView
+                    android:text="Jl. Sesama, Jakarta"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="left"
+                    android:padding="5dp" />
+            </TableRow>
+            <TableRow android:gravity="center">
+                <TextView
+                    android:gravity="left"
+                    android:text="Job"
+                    android:padding="5dp"
+                    android:layout_marginRight="30dp"/>
+                <TextView
+                    android:text=":"
+                    android:gravity="center"
+                    android:padding="5dp" />
+                <TextView
+                    android:text="Teacher"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="left"
+                    android:padding="5dp" />
+            </TableRow>
+            <!--<TableRow android:gravity="center">-->
+                <!--<TextView-->
+                    <!--android:gravity="left"-->
+                    <!--android:text="Hobby"-->
+                    <!--android:padding="5dp"-->
+                    <!--android:layout_marginRight="30dp"/>-->
+                <!--<TextView-->
+                    <!--android:text=":"-->
+                    <!--android:gravity="center"-->
+                    <!--android:padding="5dp" />-->
+                <!--<TextView-->
+                    <!--android:text="Sport"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:gravity="left"-->
+                    <!--android:padding="5dp" />-->
+            <!--</TableRow>-->
+
+        </TableLayout>
+
+
+        <Button
+            android:id="@+id/btn_edt_prof"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="EDIT PROFILE"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/btn_bckg"
+            android:backgroundTint="#5AC8FA"
+            />
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="LOGOUT"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/btn_bckg"
+            android:backgroundTint="#5AC8FA"
+            />
+
+    </LinearLayout>
+
+
+    <!--<android.support.v4.widget.DrawerLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:openDrawer="right">
+
+        <android.support.design.widget.NavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            app:headerLayout="@layout/nav_header_main"
+            app:menu="@menu/activity_main_drawer" />
+
+    </android.support.v4.widget.DrawerLayout>-->
+</RelativeLayout>
