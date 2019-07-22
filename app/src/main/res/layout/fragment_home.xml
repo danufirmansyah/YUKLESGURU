@@ -31,7 +31,11 @@
                 />
 
             <TextView
+<<<<<<< HEAD
                 android:id="@+id/NamaUser"
+=======
+                android:id="@+id/tv_user1"
+>>>>>>> f6dadc35de2c6fddc79090798ca924f2039e5120
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Sabri Alim"
@@ -48,7 +52,11 @@
                 />
 
             <TextView
+<<<<<<< HEAD
                 android:id="@+id/SaldoUser"
+=======
+                android:id="@+id/balance"
+>>>>>>> f6dadc35de2c6fddc79090798ca924f2039e5120
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Rp.150.000"

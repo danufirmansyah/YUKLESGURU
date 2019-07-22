@@ -15,8 +15,11 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+<<<<<<< HEAD
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.UserProfileChangeRequest;
+=======
+>>>>>>> f6dadc35de2c6fddc79090798ca924f2039e5120
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -25,7 +28,10 @@ public class register extends AppCompatActivity {
     private EditText edtEmail,edtPassword,edtusername;
     private Button btnRegister;
     private FirebaseAuth auth;
+<<<<<<< HEAD
     private DatabaseReference mDB;
+=======
+>>>>>>> f6dadc35de2c6fddc79090798ca924f2039e5120
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -79,6 +85,7 @@ public class register extends AppCompatActivity {
                                                 Toast.LENGTH_LONG).show();
                                     }else {
                                         //jika sukses akan menuju ke login activity
+<<<<<<< HEAD
                                         mDB = FirebaseDatabase.getInstance().getReference();
                                         String UID = auth.getCurrentUser().getUid();
                                         String UserName = edtusername.getText().toString().trim();
@@ -92,6 +99,8 @@ public class register extends AppCompatActivity {
                                         mDB.child("users").child(UID).setValue(USER);
 
 
+=======
+>>>>>>> f6dadc35de2c6fddc79090798ca924f2039e5120
                                         startActivity(new Intent(register.this,MainActivity.class));
                                         finish();
                                     }
