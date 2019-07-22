@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splashscreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/gradient"
+    tools:context=".splashscreen">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="560dp"
+        android:layout_height="280dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/location1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="looking for student"
+        android:layout_below="@id/logo"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:textColor="@color/putih"
+        />
+
+
+
+</RelativeLayout>

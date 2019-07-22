@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "261463138834",
+    "firebase_url": "https://yuklesguru.firebaseio.com",
+    "project_id": "yuklesguru",
+    "storage_bucket": "yuklesguru.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261463138834:android:11fe10ea6a8c9f28",
+        "android_client_info": {
+          "package_name": "com.example.yuklesguru"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261463138834-rvvc860c9lo47gmkppjon44266jtt6q3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yuklesguru",
+            "certificate_hash": "b548b23d57afbc2e7de34d748925d269fe104cbb"
+          }
+        },
+        {
+          "client_id": "261463138834-lp3mf09j75oshe5vdhph90bm1napcjnf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwGfGfj-SG9QsyZ4Ax6V_nFilaHUUdSbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261463138834-lp3mf09j75oshe5vdhph90bm1napcjnf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

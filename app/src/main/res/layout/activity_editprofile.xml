@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    tools:context=".editprofile">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="—EDIT PROFILE—"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="true"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="130dp"
+        android:padding="20dp"
+        android:id="@+id/relativelayout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        >
+
+
+    <EditText
+        android:id="@+id/usernameedit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Full Name"
+        android:textAlignment="gravity"
+        />
+
+    <EditText
+        android:id="@+id/genderedit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Gender"
+        android:textAlignment="gravity"
+        />
+
+    <EditText
+        android:id="@+id/Age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Age"
+        android:inputType="textPassword"
+        android:textAlignment="gravity"
+        />
+
+        <EditText
+            android:id="@+id/Addressedit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:hint="Address"
+            android:inputType="textPassword"
+            android:textAlignment="gravity"
+            />
+
+        <EditText
+            android:id="@+id/Jobedit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:hint="Job"
+            android:inputType="textPassword"
+            android:textAlignment="gravity"
+            />
+    <!--<EditText-->
+    <!--android:id="@+id/re_password"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:drawableLeft="@drawable/password_white1"-->
+    <!--android:hint="Re-type Password"-->
+    <!--android:inputType="textPassword"-->
+    <!--android:textAlignment="gravity"-->
+    <!--/>-->
+
+    <Button
+        android:id="@+id/btn_sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="EDIT PROFILE"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#5AC8FA"
+        android:background="@drawable/btn_bckg"
+        android:backgroundTint="#FFFFFF"
+        />
+    </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

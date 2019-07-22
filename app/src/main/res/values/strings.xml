@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">YUKLES GURU</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="f_pw">Forgot Password?</string>
+    <string name="lgn_btn">LOGIN</string>
+    <string name="ggl">MASUK DENGAN GOOGLE</string>
+    <string name="rgst">Register with email?</string>
+    <string name="rgst_btn">REGISTER</string>
+    <string name="hm">HOME</string>
+    <string name="bid">BID</string>
+    <string name="prof">PROFILE</string>
+    <string name="stat">Status</string>
+</resources>

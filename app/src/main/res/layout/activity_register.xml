@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    tools:context=".register">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="—REGISTRATION—"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="true"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="130dp"
+        android:padding="20dp"
+        android:id="@+id/relativelayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            >
+
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/name_white1"
+            android:hint="Full Name"
+            android:textAlignment="gravity"
+            />
+
+        <EditText
+            android:id="@+id/edt_email_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/email_white1"
+            android:hint="Email"
+            android:textAlignment="gravity"
+            />
+
+        <EditText
+            android:id="@+id/edt_password_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/password_white1"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textAlignment="gravity"
+            />
+
+        <!--<EditText-->
+            <!--android:id="@+id/re_password"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:drawableLeft="@drawable/password_white1"-->
+            <!--android:hint="Re-type Password"-->
+            <!--android:inputType="textPassword"-->
+            <!--android:textAlignment="gravity"-->
+            <!--/>-->
+
+            <Button
+                android:id="@+id/btn_sign_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="REGISTER"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#5AC8FA"
+                android:background="@drawable/btn_bckg"
+                android:backgroundTint="#FFFFFF"
+                />
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:paddingTop="25dp"-->
+                <!--android:text="Already have an account?"-->
+                <!--android:textColor="#FFFFFF"/>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/back_login"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:paddingTop="3dp"-->
+                <!--android:text="LOGIN"-->
+                <!--android:textColor="#000000"/>-->
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>
